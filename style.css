@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------------------box...1----------------------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    height: 10vh;
+    top: 0%;
+}
+.logo{
+    font-size: 20px;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul{
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
+}
+ul li {
+    list-style: none;
+    width: 150px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+li :hover{
+    color: green;
+    letter-spacing: 2px;
+}
+header{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(./img/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.head{
+    border: 2px solid;
+    height: 90vh;
+}
+.head h1{
+    margin: 12% 0% 0% 7%;
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #fff ;
+}
+.head p{
+    margin: 3% 0% 0% 7%;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.head a{
+    border-radius: 15px;
+    height: 3vh;
+    font-size: 1em;
+    margin: 3% 0% 0% 20%;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    transition: 0.6s;
+    text-decoration: none;
+    background-color: darkslategray;
+    text-transform: uppercase;
+}
+.head a:hover{
+    background-color: #ff0157;
+    letter-spacing: 2px;
+}
+span{
+    color:  #ff0157;
+    font-size: 60px;
+    
+}
+@media (max-width:600px){
+    nav{
+        display: none;
+    }
+    .logo{
+        display: block;
+    }
+    header{
+        display: block;
+    }
+}
+
+/*---------------------------- box....2 -----------------------*/
+
+.content{
+    text-align: center;
+    background-color: #111b3d;
+    height: 110vh;
+    border: 2px solid;
+}
+.text1 h1{
+    font-size: 40px;
+    margin-top: 5%;
+    color: #fff;
+    text-transform: capitalize;
+}
+.text1 p{
+    margin-top: 4%;
+    color: #fff;
+}
+.menu-content{
+    display: flex;
+    margin-top: 5%;
+    
+}
+.menu img{
+    height: 40vh;
+    width: 300px;
+    border-radius: 100%;
+}
+.menu h2{
+    margin-top: 3%;
+    color: #fff;
+}
+.menu p{
+    margin-top: 4%;
+    color: #fff;
+    padding: 0px 20px;
+}
+@media (max-width:600px){
+    .content{
+        display: block;
+        height: 200vh;
+    }
+    .menu-content{
+        flex-direction: column;
+    }
+}
+
+/* -----------------------box.....3 -----------------------------------*/
+
+.menu-content2{
+    display: flex;
+    align-items: center;
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(./img/backgroung.jpg);
+    background-size: cover;
+}
+.content-2{
+    width: 50%;
+    height: 90vh;
+    text-align: center;
+    
+}
+.content-2 img{
+    height: 50vh;
+    width: 400px;
+    border-radius: 100%;
+    margin-top: 25%;
+}
+.text2{
+    height: 40vh;
+    width: 800px;
+}
+.text2 h2{
+    text-align: center;
+    margin: 3% 0% 0% 5%;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.text2 p{
+    text-align: center;
+    margin: 5% 0% 0% 10%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.text2 a{
+    text-align: center;
+    margin: 5% 0% 0% 40%;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 25px;
+    height: 5vh;
+    text-decoration: none;
+    width: 200px;
+    transition: 0.6s;
+    padding-top: 15px;
+    background-color: #ff0157;
+    color: #fff;
+}
+.text2 a:hover{
+    letter-spacing: 2px;
+}
+.content-3 img{
+    height: 50vh;
+    width: 400px;
+    border-radius: 100%;
+    margin-top: 25%;
+}
+@media(max-width:600px){
+    .menu-content2{
+        flex-direction: column;
+    }
+    .text2 p{
+        margin: 5%;
+        font-size: 13px;
+    }
+}
+
+/* -----------------------box.....4 -----------------------*/
+
+.rating-main{
+    display: flex;
+    margin: 8% 0% 0% 20%;
+    justify-content: space-around;
+    width: 900px;
+}
+.rating{
+    height: 24vh;
+    width: 175px;
+    text-align: center;
+    border-radius: 90%;
+    background-color: #fff;
+}
+.rating h1{
+    height: 70px;
+    margin-top: 20%;
+    font-size: 50px;
+} 
+
+/* ----------------box--6 ---------------*/
+
+.man{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(7, 27, 62, 0.795),rgba(6, 32, 69, 0.5)), url(./img/pranjall-kumar-sejqj6Eaqe8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mane img{
+    width: 20%;
+    height: 40vh;
+    margin: 5% 0% 0% 40%;
+    border-radius: 70%;
+}
+.man p{
+    text-align: center;
+    margin-top: 3%;
+    color: #fff;
+}
+.man h2{
+    text-align: center;
+    margin-top: 3%;
+    color: #fff;
+}
+.serch{
+    height: 60vh;
+    background-color: rgb(237, 237, 130);
+    align-items: center;
+    border: 2px solid;
+}
+.serch h1{
+    text-align: center;
+    margin-top: 5%;
+    text-transform: capitalize;
+}
+.serch p{
+    text-align: center;
+    margin-top: 3%;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.int{
+    text-align: center;
+    margin-top: 2%;
+}
+.int input{
+    height: 5vh;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+.int a{
+    /* border: 2px solid black; */
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 8px 0px;
+    width: 100px;
+    margin: 1% 0% 0% -5%;
+    color: #fff;
+    background-color: rgb(70, 70, 148);
+}
+
+/* -------------------------box..7--------------------------*/
+
+footer{
+    display: flex;
+    background-color: rgba(20, 19, 19, 0.92);
+    height: 40vh;
+}
+.the-end{
+    width: 700px;
+    margin: 2% 0% 0% 3%;
+    color: #fff;
+}
+h1{
+    text-transform: capitalize;
+}
+h4{
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.the-end p{
+    margin-top: 3%;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 15px;
+    
+}
+.the-end2{
+    justify-content: space-around;
+}
+.emd{
+margin: 3% 0% 0% 5%;
+}
+.emd h5 a{
+    margin-top: 15%;
+    display: inline-block;
+    color: #c7bdbd;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+/* i{
+    margin: 20% 5% 0% 0%;
+    width: 50px;
+} */
